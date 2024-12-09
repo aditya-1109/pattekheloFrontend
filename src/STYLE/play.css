@@ -1,0 +1,49 @@
+.frontContainer {
+    background-image: url("backgroundTeen.jpg");
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.button {
+    height: auto;
+    width: 25%;
+    margin: 1%;
+    border-radius: 10px;
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(232, 218, 218);
+    margin-top: 6.5%;
+    z-index: 0;
+    text-shadow: 2px 2px 5px gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30%;
+}
+
+.friendImage {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0 0 0 0);
+}
+
+.playButton {
+    background-color: rgb(205, 76, 76);
+    border: 4px solid rgb(68, 19, 19);
+}
+
+
+.playFriendButton {
+    background-color: rgb(71, 197, 197);
+    border: 4px solid rgb(27, 84, 95);
+}
+
+.backButton {
+    background-color: rgb(173, 86, 150);
+    border: 4px solid rgb(83, 16, 49);
+}
